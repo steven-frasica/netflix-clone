@@ -32,4 +32,6 @@
   position: absolute;
   bottom: 10px;
   left: 8px;
+  text-decoration: none;
+  color: white;
 }

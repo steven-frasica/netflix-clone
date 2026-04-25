@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import "./Login.css";
 import logo from "../../assets/logo.png";
+import {login, signup } from '../../firebase'
 
 const Login = () => {
+
   const [signState, setSignState] = useState("Sign In");
+  const [name, setName] = useState("");
 
   return (
     <div className="login">
