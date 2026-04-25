@@ -24,7 +24,10 @@
 .hero-caption p {
   max-width: 700px;
   font-size: 17px;
-  margin-bottom: 20px;
+}
+
+.hero-caption > p:first-of-type {
+  margin-bottom: 10px;
 }
 
 .hero-btns {
