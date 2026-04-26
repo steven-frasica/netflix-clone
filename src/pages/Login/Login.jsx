@@ -31,7 +31,7 @@ const Login = () => {
       </div>) :
     
     <div className="login">
-      <img src={logo} className="login-logo" alt="" />
+      <img src="" className="login-logo" alt="" />
       <div className="login-form">
         <h1>{signState}</h1>
         <form>
@@ -55,7 +55,7 @@ const Login = () => {
         <div className="form-switch">
           {signState === "Sign In" ? (
             <p>
-              New to Netflix? <span onClick={() => {setSignState("Sign Up")}}>Sign Up Now</span>
+              New to Filmflix? <span onClick={() => {setSignState("Sign Up")}}>Sign Up Now</span>
             </p>
           ) : (
             <p>
