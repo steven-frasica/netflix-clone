@@ -16,8 +16,12 @@
   gap: 50px;
 }
 
-.navbar-left img {
-  width: 90px;
+.navbar-brand {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .navbar-left ul {
@@ -87,6 +91,10 @@
 
   .navbar img {
     height: 25px;
+  }
+
+  .navbar-brand {
+    font-size: 18px;
   }
 }
 
